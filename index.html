@@ -18,16 +18,23 @@
     <!-- Fonts -->
     <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
 
-    <style>
-        body {
-            font-size: 1.6rem;
-            font-family: Gordita, sans-serif;
-        }
-    </style>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <!-- Scripts -->
+    <script src="./assets/js/scripts.js"></script>
 </head>
 
 <body>
-    <h1>hello word!</h1>
+    <header id="header"></header>
+    <script>
+        load("#header", "./template/header.html")
+    </script>
+    <h1>Home page</h1>
+    <footer id="footer"></footer>
+    <script>
+        load("#footer", "./template/footer.html")
+    </script>
 </body>
 
 </html>
